@@ -1,0 +1,17 @@
+{
+  "name": "konamify",
+  "version": "1.0.0",
+  "description": "A utility function for observing Konami code input in a web browser.",
+  "main": "index.js",
+  "repository": "https://github.com/cm/konamify.git",
+  "author": "Christian Burland Mankowski <chrisaburland@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "browserify index.js | uglifyjs > konamify.min.js"
+  },
+  "devDependencies": {
+    "browserify": "^16.5.0",
+    "uglify-js": "^3.6.0"
+  }
+}
